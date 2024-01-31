@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/pk2.png" type="icon">
+    <title>DiscoverPK.com</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--=======Header Section Start========-->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"><img src="./images/pk3.png" alt="pk"></a>
+        <nav class="navbar">
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">destination</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">gallery</a>
+            <a data-aos="zoom-in-left" data-aos-delay="1150" href="#reviews">reviews</a>
+        </nav>
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">book now</a>
+    </header>
+    <!--=======Header Section End========-->
+    <!--=======Home Section Start========-->
+    <section id="home">
+        <div class="carousel">
+            <div class="list">
+                <div class="item">
+                    <img src="./images/pic1.jpg" alt="pic1">
+                    <div class="content">
+                        <div class="auther">Nanga Parbat</div>
+                        <div class="title">Fairy Meadows</div>
+                        <div class="des">Discover the enchanting Fairy Meadows, nestled at the base of the majestic
+                            Nanga
+                            Parbat, the world's ninth-highest mountain. Immerse yourself in the breathtaking alpine
+                            meadows
+                            and witness the awe-inspiring views of the snow-clad peaks.</div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/skardo.jpg" alt="pic2">
+                    <div class="content">
+                        <div class="auther">Skardu</div>
+                        <div class="title">Shangrila Resort</div>
+                        <div class="des">Explore the serene beauty of Shangrila Resort in Skardu, a tranquil haven
+                            surrounded by the grandeur of the Karakoram Range. With its pristine lakes, lush gardens,
+                            and a
+                            view of the mighty mountains, Shangrila is a true gem waiting to be discovered.</div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/lahore.jpg" alt="pic3">
+                    <div class="content">
+                        <div class="auther">Lahore</div>
+                        <div class="title">Badshahi Mosque</div>
+                        <div class="des"> Uncover the historical richness of Lahore by visiting the Badshahi Mosque and
+                            Lahore Fort. Marvel at the grandeur of Mughal architecture, intricate designs, and cultural
+                            heritage that make these UNESCO World Heritage Sites a testament to Pakistan's glorious
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/hunza.jpg" alt="pic1">
+                    <div class="content">
+                        <div class="auther">Hunza Pakistan</div>
+                        <div class="title">Hunza Valley</div>
+                        <div class="des"> Embark on a journey to Hunza Valley, where nature's beauty knows no bounds.
+                            Surrounded by snow-capped peaks, turquoise lakes, and centuries-old forts, Hunza Valley is a
+                            paradise for those seeking adventure and tranquility in the heart of the Karakoram Range.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- thumbnail -->
+            <div class="thumbnail">
+
+                <div class="item">
+                    <img src="./images/skardo.jpg" alt="">
+                    <div class="content">
+                        <div class="title">Skardu</div>
+                        <div class="des">Shangrila Resort</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/lahore.jpg" alt="">
+                    <div class="content">
+                        <div class="title">Lahore</div>
+                        <div class="des">Badshahi Mosque</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/hunza.jpg" alt="">
+                    <div class="content">
+                        <div class="title">Hunza Pakistan</div>
+                        <div class="des">Hunza Valley</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/pic1.jpg" alt="">
+                    <div class="content">
+                        <div class="title">Nanga Parbat</div>
+                        <div class="des">Fairy Meadows</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Arrows -->
+            <div class="arrows">
+                <button id="prev"><</button>
+                        <button id="next">></button>
+
+            </div>
+            <div class="time"></div>
+        </div>
+    </section>
+    <!--=======Home Section End========-->
+    <!--=======About Section Start========-->
+    <section id="about" class="about">
+        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+            <video src="./videos/vid1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="./videos/vid1.mp4"></span>
+                <span class="control-btn" data-src="./videos/vid2.mp4"></span>
+                <!-- <span class="control-btn" data-src="./videos/vid3.mp4"></span> -->
+                <span class="control-btn" data-src="./videos/vid4.mp4"></span>
+                <span class="control-btn" data-src="./videos/vid5.mp4"></span>
+            </div>
+        </div>
+        <div class="content-box" data-aos="fade-left" data-aos-delay="600">
+            <span>Why Choose Us?</span>
+            <h3>DiscoverPK</h3>
+            <p>DiscoverPK is your passport to the beauty and culture of Pakistan. Uncover hidden gems, explore diverse
+                landscapes, and embrace the warmth of Pakistani hospitality. Whether you're a curious traveler or
+                history enthusiast, join us on a journey to experience the unique charm that makes Pakistan a
+                captivating destination. Start your adventure with DiscoverPK.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+    <!--=======About Section End========-->
+    <!--=======Destination Section Start========-->
+    <section class="destination" id="destination">
+        <div class="heading">
+            <span>Explore Pakistan's Hidden Treasures</span>
+            <h1>Uncover the Splendor of Pakistan's Gems</h1>
+        </div>
+        <div class="box-container">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <div class="image">
+                    <img src="./images/d1.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Serene Skardu</h3>
+                    <p>Explore the tranquil beauty of Skardu's landscapes and Shangrila Resort</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="./images/d2.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Swat Valley</h3>
+                    <p>Discover Swat Valley's lush valleys, a haven for nature enthusiasts</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="./images/d3.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Hunza Valley</h3>
+                    <p>Snow-capped peaks and ancient forts await in the heart of Hunza</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <div class="image">
+                    <img src="./images/d4.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Historical Lahore</h3>
+                    <p>UNESCO sites, Badshahi Mosque, and Lahore Fort showcase Mughal grandeur.</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="750">
+                <div class="image">
+                    <img src="./images/d5.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Fairy-tale Meadows</h3>
+                    <p>Awe-inspiring views at the base of Nanga Parbat, world's ninth-highest</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="900">
+                <div class="image">
+                    <img src="./images/d6.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Modern Islamabad</h3>
+                    <p>Green cityscapes, modern architecture, and cultural charm in the capital</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="1150">
+                <div class="image">
+                    <img src="./images/d7.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Bustling Karachi</h3>
+                    <p>Vibrant street life, Clifton Beach, and rich cultural experiences in Karachi</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="1300">
+                <div class="image">
+                    <img src="./images/d8.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <h3>Ancient Mohenjo-daro</h3>
+                    <p>Step into history at one of the world's earliest urban centers</p>
+                    <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======Destination Section End========-->
+    <!--=======Services Section Start========-->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Our Services</span>
+            <h1> Our Exceptional Services Await You</h1>
+        </div>
+        <div class="box-container">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h3>Guided Tours</h3>
+                <p>Offer curated guided tours to various scenic locations across Pakistan. Provide details about the
+                    tour packages, including destinations, duration, and special features</p>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <i class="fas fa-mountain"></i>
+                <h3>Adventure Packages</h3>
+                <p>Introduce adventure packages for thrill-seekers, including activities like trekking, mountain
+                    climbing, paragliding, and more.</p>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <i class="fas fa-globe"></i>
+                <h3>Cultural Experiences</h3>
+                <p>Arrange cultural experiences for travelers, such as visits to historical sites, local festivals, and
+                    interactions with indigenous communities.</p>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+                <i class="fas fa-route"></i>
+                <h3>Custom Travel Planning</h3>
+                <p>Provide personalized travel planning services where users can tailor their itineraries based on their
+                    preferences and interests.</p>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+                <i class="fas fa-car"></i>
+                <h3>Transportation Services</h3>
+                <p>Facilitate transportation services, including car rentals, shuttle services, or even private
+                    transportation options for a hassle-free journey</p>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+                <i class="fas fa-camera"></i>
+                <h3>Photography Tours</h3>
+                <p>Cater to photography enthusiasts with specialized photography tours, guiding them to picturesque
+                    locations and offering tips for capturing stunning moments</p>
+            </div>
+        </div>
+    </section>
+    <!--=======Services Section End========-->
+    <!--=======Gallery Section Start========-->
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <span>Our Gallery</span>
+            <h1>We Capture Memories</h1>
+        </div>
+        <div class="box-container">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="./images/g1.jpg" alt="">
+                <span>Margalla Hills National Park</span>
+                <h3>Scenic</h3>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="./images/g2.jpg" alt="">
+                <span>Saif-ul-Mulook Lake</span>
+                <h3>Picturesque</h3>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="./images/g3.jpg" alt="">
+                <span>Forts of Cholistan</span>
+                <h3>Historic </h3>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="./images/g4.jpg" alt="">
+                <span>Empress Market,Karachi</span>
+                <h3>Artistic</h3>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="./images/g10.jpg" alt="">
+                <span>Sea View, Karachi:</span>
+                <h3>Coastal</h3>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="./images/g6.jpg" alt="">
+                <span>Hunza Valley</span>
+                <h3>Serene</h3>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="./images/g7.jpg" alt="">
+                <span>Badshahi Mosque and Lahore Fort</span>
+                <h3>Majestic</h3>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="./images/g8.jpg" alt="">
+                <!-- <span>travel spot</span>
+                <h3>karachi</h3> -->
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="./images/g9.jpg" alt="">
+                <span>Shangrila Resort, Skardu</span>
+                <h3>Tranquil</h3>
+            </div>
+
+        </div>
+    </section>
+    <!--=======Gallery Section End========-->
+    <!--=======Reviews Section Start========-->
+    <section class="reviews" id="reviews">
+        <div class="content-box" data-aos="fade-right" data-aos-delay="300">
+            <span>Reviews</span>
+            <h3>Unveiling Authentic Experiences Shared by Our Travelers</h3>
+            <p> Discover the magic of Pakistan through the eyes of fellow travelers in our reviews section. Real
+                stories, real experiences—unveiling the essence of unforgettable journeys. Join our community, be
+                inspired, and start planning your next adventure with DiscoverPK!</p>
+        </div>
+        <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+            <div class="box">
+                <p>DiscoverPK is a game-changer for adventure seekers. Highlyrecommended for unique experiences!"</p>
+                <div class="user">
+                    <img src="./images/user1.jpg" alt="">
+                    <div class="info">
+                        <h3>Ahmed</h3>
+                        <span>traveler</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>DiscoverPK made my trip magical—seamless planning, stunning views, and personalized service</p>
+                <div class="user">
+                    <img src="./images/user2.jpg" alt="">
+                    <div class="info">
+                        <h3>Sarah</h3>
+                        <span>traveler</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>DiscoverPK, your local friend on the road—dive into history, savor flavors. Can't wait for more
+                    journeys!</p>
+                <div class="user">
+                    <img src="./images/user3.jpg" alt="">
+                    <div class="info">
+                        <h3>Aamir</h3>
+                        <span>traveler</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Solo travel made easy with DiscoverPK—excellent accommodations, hidden gems, and a curated guide.</p>
+                <div class="user">
+                    <img src="./images/user4.jpg" alt="">
+                    <div class="info">
+                        <h3>Emily</h3>
+                        <span>traveler</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======Reviews Section End========-->
+    <!--=======Banner Section Start========-->
+    <section class="banner">
+        <div class="content-box" data-aos="zoom-in-up" data-aos-delay="300">
+            <span>Start Your Adventure</span>
+            <h3>Let's Explore Beauty Of Pakistan</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla odit similique voluptatum impedit sit
+                vero error perspiciatis quia porro ratione!</p>
+            <a href="#book-form" class="btn">book now</a>
+        </div>
+    </section>
+    <!--=======Banner Section End========-->
+    <!--=======Footer Section Start========-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <a href="#" class="logo"><img src="./images/pk3.png" alt="pk"></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, maiores!</p>
+                <div class="share">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <h3>Quick Links</h3>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#about" class="links"><i class="fas fa-arrow-right"></i>about</a>
+                <a href="#destination" class="links"><i class="fas fa-arrow-right"></i>destination</a>
+                <a href="#services" class="links"><i class="fas fa-arrow-right"></i>services</a>
+                <a href="#gallery" class="links"><i class="fas fa-arrow-right"></i>gallery</a>
+                <a href="#reviews" class="links"><i class="fas fa-arrow-right"></i>reviews</a>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <h3>Contact info</h3>
+                <p><i class="fas fa-phone"></i>090078601</p>
+                <p><i class="fas fa-map"></i>Karachi,Pakistan</p>
+                <p><i class="fa-solid fa-envelope"></i>rabiyanoorahmed@gmail.com</p>
+                <p><i class="fas fa-clock"></i>8:00AM - 11:00PM</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <h3>newsletter</h3>
+                <p>subscribe for latest update</p>
+                <form action="#">
+                    <input type="email" placeholder="enter your email" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="credit">created by <span>Rabiya Noor Ahmed</span> | all rights reserved!</div>
+
+
+    <!--=======Footer Section End========-->
+
+
+    <!-- Custom JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset:150,
+        });
+    </script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
